@@ -2,6 +2,7 @@
   "name": "keeper-app-final",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://astr1cs.github.io/Keeper-Notepad-2.0/",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
