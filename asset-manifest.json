@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Keeper-Notepad-2.0/static/js/main.768e2511.js",
+    "index.html": "/Keeper-Notepad-2.0/index.html",
+    "main.768e2511.js.map": "/Keeper-Notepad-2.0/static/js/main.768e2511.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.768e2511.js"
+  ]
+}
