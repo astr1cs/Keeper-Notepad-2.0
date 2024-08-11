@@ -4,7 +4,8 @@ const newDate = new Date().getFullYear();
 
 function Footer() {
   return (
-    <footer>
+    <footer className="Footer ">
+      <div className="footer-align"></div>
       <p>Copyright © {newDate}</p>
     </footer>
   );

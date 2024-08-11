@@ -30,7 +30,7 @@ function CreateArea(props) {
     setExpanded(true);
   }
   return (
-    <div>
+    <div className="createNoteArea">
       <form action="" className="create-note">
         {isExpanded && (
           <input
